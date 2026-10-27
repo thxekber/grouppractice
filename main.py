@@ -1,13 +1,30 @@
+def fibonacci(x):
+    a = 1
+    b = 1
+    for i in range(0, x):
+        c = a + b
+        a = b
+        b = c
+    return b
 print("hi")
+exam=input()
+if exam=="tomorrow":
+    print("panic mode is on")
+elif exam=="Today":
+    print("We are cooked")
+else:
+    print("life is going on")
 
-  
+
+    
 videocekek=input()
-
 if videocekek=="yes":
     print("curly happy")
 else:
     print("curly sad")
 
+
+    
 print ('conflikler')
 
 list=[]
