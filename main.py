@@ -7,15 +7,24 @@ def fibonacci(x):
         b = c
     return b
 print("hi")
+exam=input()
+if exam=="tomorrow":
+    print("panic mode is on")
+elif exam=="Today":
+    print("We are cooked")
+else:
+    print("life is going on")
 
-  
+
+    
 videocekek=input()
-
 if videocekek=="yes":
     print("curly happy")
 else:
     print("curly sad")
 
+
+    
 print ('conflikler')
 
 
@@ -27,3 +36,4 @@ for i in range (1,100):
     if s==2:
         print(i)
         
+
