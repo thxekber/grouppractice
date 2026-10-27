@@ -1,5 +1,4 @@
-print("hi")
-def f(x):
+def fibonacci(x):
     a = 1
     b = 1
     for i in range(0, x):
@@ -7,6 +6,3 @@ def f(x):
         a = b
         b = c
     return b
-
-entered = int(input("Enter a number:"))
-print(f(entered))
