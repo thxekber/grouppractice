@@ -34,7 +34,15 @@ for i in range (1,100):
         if i%j==0:
             s+=1
     if s==2:
-        list.append(i)
-        print(list)
+        print(i)
+
+
+whenareweeating=input()
+if whenareweeating=="birazdan":
+    print("smm happy")
+else:
+    print("smm mad")
 
         
+
+
