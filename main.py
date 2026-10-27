@@ -35,5 +35,9 @@ for i in range (1,100):
             s+=1
     if s==2:
         print(i)
+
+
+
+print('i notice differences')
         
 
