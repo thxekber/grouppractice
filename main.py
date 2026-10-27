@@ -1,8 +1,12 @@
+def fibonacci(x):
+    a = 1
+    b = 1
+    for i in range(0, x):
+        c = a + b
+        a = b
+        b = c
+    return b
 print("hi")
-<<<<<<< HEAD
-=======
-
->>>>>>> d5920f043204bef63b2e0a0334d4bdb326450d2d
 exam=input()
 if exam=="tomorrow":
     print("panic mode is on")
@@ -10,12 +14,6 @@ elif exam=="Today":
     print("We are cooked")
 else:
     print("life is going on")
-<<<<<<< HEAD
-
-  
-videocekek=input()
-=======
->>>>>>> d5920f043204bef63b2e0a0334d4bdb326450d2d
 
 
     
@@ -29,7 +27,6 @@ else:
     
 print ('conflikler')
 
-<<<<<<< HEAD
 
 for i in range (1,100):
     for j in range(1,i+1):
@@ -39,5 +36,4 @@ for i in range (1,100):
     if s==2:
         print(i)
         
-=======
->>>>>>> d5920f043204bef63b2e0a0334d4bdb326450d2d
+
