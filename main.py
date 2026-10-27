@@ -1,5 +1,4 @@
 print("hi")
-<<<<<<< HEAD
 exam=input()
 if exam=="tomorrow":
     print("panic mode is on")
@@ -7,7 +6,6 @@ elif exam=="Today":
     print("We are cooked")
 else:
     print("life is going on")
-=======
 
   
 videocekek=input()
@@ -28,4 +26,3 @@ for i in range (1,100):
     if s==2:
         print(i)
         
->>>>>>> c6a9f5247190dea58a19c4bea76d6b4cbfb067d7
