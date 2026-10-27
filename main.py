@@ -7,3 +7,5 @@ for t in range(60,-1,-1):
     print(t,end="\r")
     time.sleep(1)
 print("uzgun chazos")
+
+print("Hello world!")
